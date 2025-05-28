@@ -94,15 +94,15 @@ Primeiro será implementado utilizando herança polimórfica, pois precisamos im
 
 ## TODO List
 
-- [ ] Modelagem com Modelos Separados
-- [ ] Migrations para os modelos separados
-- [ ] Implementação de regras de negócio
-- [ ] Testes unitários para validação dos modelos separados
-- [ ] Integração com ActiveStorage
-- [ ] Persistência em múltiplos sistemas de storage (S3, blob, disco)
-- [ ] Modelagem com Herança Polimórfica (plus)
-- [ ] Migrations para os modelos com herança
-- [ ] Testes unitários para validação dos modelos com herança
-- [ ] Performance de recuperação e listagem
-- [ ] Benchmark com árvore de 1000 níveil e performance de recuperação/listagem
-- [ ] Interface de importação/exportação
+- [x] Modelagem com Herança Polimórfica
+- [x] Modelagem com Modelos Separados (plus)
+- [x] Integração com ActiveStorage
+- [x] Migrations para os modelos com herança
+- [x] Testes unitários para validação dos modelos com herança
+- [x] Implementação de regras de negócio
+- [x] Persistência em múltiplos sistemas de storage (S3, blob, disco)
+- [ ] Migrations para os modelos separados (plus)
+- [ ] Testes unitários para validação dos modelos separados (plus)
+- [ ] Performance de recuperação e listagem (plus)
+- [ ] Benchmark com árvore de 1000 níveil e performance de recuperação/listagem (plus)
+- [ ] Interface de importação/exportação (plus)

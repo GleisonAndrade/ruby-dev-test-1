@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :file_storable do
     name { Faker::File.unique.file_name }
