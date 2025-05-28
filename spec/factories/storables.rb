@@ -1,7 +1,6 @@
 FactoryBot.define do
   factory :storable do
-    name { "MyString" }
-    type { "" }
-    parent_id { 1 }
+    sequence(:name) { |n| "file_#{n}.txt" }
+    association :parent, factory: :directory_storable
   end
 end
