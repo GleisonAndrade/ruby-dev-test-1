@@ -1,0 +1,30 @@
+inherit_gem:
+  rubocop-rails-omakase:
+    - rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.4
+  NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'db/schema.rb'
+    - 'db/migrate/**/*'
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'
+    
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
+  Exclude:
+    - 'db/schema.rb'
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+  ConsistentQuotesInMultiline: true
+
+Rails/InverseOf:
+  Exclude:
+    - 'app/models/storable.rb'
