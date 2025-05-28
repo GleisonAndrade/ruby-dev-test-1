@@ -20,3 +20,11 @@ Style/FrozenStringLiteralComment:
   EnforcedStyle: always
   Exclude:
     - 'db/schema.rb'
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+  ConsistentQuotesInMultiline: true
+
+Rails/InverseOf:
+  Exclude:
+    - 'app/models/storable.rb'
